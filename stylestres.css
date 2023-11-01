@@ -1,4 +1,17 @@
-/* container {
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg, #3498db, #9b59b6);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -29,17 +42,4 @@ p {
 
 .social-links a:hover {
     color: #0056b3;
-}styles.css */
-body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(45deg, #3498db, #9b59b6);
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
-
-.

@@ -12,10 +12,22 @@
             <input type="text" id="username" name="username" required><br><br>
             <label for="contrasena">Contraseña:</label>
             <input type="password" id="contrasena" name="contrasena" required><br><br>
-            <button id="datos">Registrarse</button>
+            <button id="datos">iniciar sesion</button>
             <script>
            
                 var botonMostrarRegistrarse= document.getElementById("datos");
+        
+          
+                botonMostrarinicio.addEventListener("click", function () {
+                    
+                    window.location.href = "confirm.html";
+                });
+            </script>
+            <p>¿No tienes cuenta?Registrate</p>
+            <button id="datosuno">Registrarse</button>
+            <script>
+           
+                var botonMostrarRegistrarse= document.getElementById("datosuno");
         
           
                 botonMostrarRegistrarse.addEventListener("click", function () {
