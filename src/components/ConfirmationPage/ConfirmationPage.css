@@ -1,0 +1,41 @@
+.confirmation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #7F7FD5; /* Ajusta este color para que coincida con tu diseño */
+}
+
+.confirmation-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px; /* Ajusta el ancho según sea necesario */
+}
+
+.confirmation-box h1 {
+  margin-bottom: 15px;
+  color: black;
+}
+
+.confirmation-box p {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50; /* Este es un color verde, ajusta según tu diseño */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 20px 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
